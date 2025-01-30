@@ -13,7 +13,7 @@ const ProjectList = () => {
       tags: ['Next.js', 'TailwindCSS', 'TypeScript'],
       image: '/images/portfolio.png',
       alt: 'Portfolio Preview',
-      link: 'https://example.com/project1',
+      link: 'https://christalsofia.vercel.app',
     },
     {
       title: 'PlantGuard',
