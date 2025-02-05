@@ -16,7 +16,7 @@ const Hero = () => {
       />
       <div className='flex flex-col gap-2 text-center md:gap-3'>
         <p className='text-4xl font-bold md:text-5xl'>Christal Sofia</p>
-        <p>Front-end Web Developer</p>
+        <p>Web Developer</p>
       </div>
       <CustomButton
         title='Résumé'
