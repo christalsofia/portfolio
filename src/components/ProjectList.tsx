@@ -8,14 +8,6 @@ import { ExternalLink } from 'react-feather'
 const ProjectList = () => {
   const projects = [
     {
-      title: 'Portfolio',
-      description: 'A collection of my projects, showcasing my skills and experience.',
-      tags: ['Next.js', 'TailwindCSS', 'TypeScript'],
-      image: '/images/portfolio.png',
-      alt: 'Portfolio Preview',
-      link: 'https://christalsofia.vercel.app',
-    },
-    {
       title: 'PlantGuard',
       description: 'A plant leaf disease recognition system that harnesses the power of Convolutional Neural Network (CNN) algorithm to detect plant conditions.',
       tags: ['Flask', 'HTML', 'JavaScript', 'TailwindCSS'],
