@@ -34,4 +34,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  font-family: var(--font-inter);
 }
