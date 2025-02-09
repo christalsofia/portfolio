@@ -3,25 +3,18 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'InterVariable';
-  src: url('/fonts/InterVariable.woff2') format('woff2');
-  font-display: swap;
-  font-style: normal;
-  font-weight: 100 900;
-}
-
-@font-face {
-  font-family: 'InterVariable';
-  src: url('/fonts/InterVariable-Italic.woff2') format('woff2');
-  font-display: swap;
-  font-style: italic;
-  font-weight: 100 900;
+  font-family: 'Mona Sans';
+  src:
+    url('/fonts/MonaSans[slnt,wdth,wght].woff2') format('woff2 supports variations'),
+    url('/fonts/MonaSans[slnt,wdth,wght].woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
 }
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-inter: 'InterVariable', sans-serif;
+  --font-monaSans: 'Mona Sans', sans-serif;
 }
 
 /* @media (prefers-color-scheme: light) {
@@ -31,8 +24,8 @@
   }
 } */
 
-body {
+html {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-inter);
+  font-family: var(--font-monaSans);
 }
