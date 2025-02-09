@@ -13,7 +13,7 @@ const ProjectList = () => {
       tags: ['Flask', 'HTML', 'JavaScript', 'TailwindCSS'],
       image: '/images/plantguard.png',
       alt: 'PlantGuard Preview',
-      link: 'https://github.com/christalsofia/project-plantguard',
+      link: 'https://github.com/christalsofia/plantguard',
     },
   ]
 
