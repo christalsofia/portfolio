@@ -21,7 +21,7 @@ const Hero = () => {
       <CustomButton
         title='Résumé'
         containerStyles='text-shark-950 border-2 border-shark-950 rounded-lg hover:bg-shark-950 hover:text-white text-sm px-6 py-2 md:text-base'
-        handleClick={() => {window.open('https://docs.google.com/document/d/1n58mQ56GMjpe94E7Mk7U2UDM-HYFsL4uF0QlYyZz3TI/', '_blank')}}
+        handleClick={() => {window.open('https://docs.google.com/document/d/1-tCsm8ig9Lqv8b8nzFBI9SaEkgtot8zpumnuE6GLntA/', '_blank')}}
       />
     </div>
   )
